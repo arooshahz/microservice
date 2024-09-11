@@ -1,4 +1,6 @@
 package com.example.user_management.repository;
+import com.example.user_management.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public class UserRepository {
+public interface UserRepository extends JpaRepository<User, String> {
 }
